@@ -1,0 +1,22 @@
+.chart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    background-color: rgb(228, 74, 74);
+    color: white;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.error span {
+    font-weight: 700;
+
+}

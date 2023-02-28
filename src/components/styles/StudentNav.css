@@ -1,0 +1,41 @@
+h3 {
+    padding-top: 1em;
+}
+
+.dashboard {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "n c";
+}
+
+.student-nav {
+    min-width: 110px;
+    max-width: 200px;
+    grid-area: n;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 10px solid rgb(217, 229, 255);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px 20px 20px 15%;
+    color: rgb(70, 98, 158)
+}
+
+.student-nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(70, 98, 158);
+    font-size: 1.2em;
+    width: fit-content;
+}
+
+.student-chart {
+    grid-area: c;
+}
+

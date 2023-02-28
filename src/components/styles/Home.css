@@ -1,0 +1,55 @@
+.home {
+    margin: 3em;
+    color: rgb(70, 98, 158);
+    display: flex;
+    justify-content: center;
+}
+
+.home-container{
+    max-width: 1000px;
+}
+
+p {
+    font-weight: 350;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote-container p {
+    width: 700px;
+}
+
+.quote {
+    font-size: 3em;
+}
+
+.quote::before {
+    content: '"';
+    font-size: 1.7em;
+    color: rgb(217, 229, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote::after {
+    content: '"';
+    font-size: 1.7em;
+    color: rgb(217, 229, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.yours-sincerely {
+    padding-bottom: 0.25em;
+    font-weight: 500;
+}
+
+.name {
+    padding-top: 0.25em;
+    font-weight: 200;
+    font-style: italic;
+}

@@ -1,0 +1,21 @@
+.settings-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.settings {
+    border: 10px solid rgb(217, 229, 255);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: center;
+    color: rgb(70, 98, 158);
+}
+
+label {
+    margin: 0 1em;
+    padding: 5px;
+    accent-color: rgb(70, 98, 158);
+}
